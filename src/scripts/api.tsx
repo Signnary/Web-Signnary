@@ -1,4 +1,4 @@
-const BASE_URL = 'http://34.128.124.186:8000';
+const BASE_URL = 'https://signnary.shariyl.cloud/';
 
 const ENDPOINT = {
   predict: `${BASE_URL}/predict`,
