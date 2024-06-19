@@ -1,5 +1,5 @@
 # Web-Signnary
-## 1. Intial Setup 
+## Intial Setup 
 1. Clone Repository 
 ```
 git clone https://github.com/Signnary/Web-Signnary.git
