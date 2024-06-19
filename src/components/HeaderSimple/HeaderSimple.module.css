@@ -1,0 +1,56 @@
+.header {
+  height: rem(56px);
+  background-color: var(--mantine-color-body);
+  border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.inner {
+  height: rem(56px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: rem(56px); 
+  width: auto;
+  margin-right: rem(10px); 
+}
+
+.logoName {
+  font-weight: 800;
+  font-size: rem(20px); 
+  letter-spacing: rem(+0.5px);
+  color: var(--mantine-color-white);
+  margin-bottom: var(--mantine-spacing-xs);
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+}
+
+
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: rem(8px) rem(12px);
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+}
+
+.link:hover {
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+}
+
+.link.active {
+  background-color: var(--mantine-color-blue-filled);
+  color: var(--mantine-color-white);
+}
